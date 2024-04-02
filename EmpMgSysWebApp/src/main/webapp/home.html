@@ -1,0 +1,63 @@
+
+<!--
+ For Showing The Data To The Front End
+-->
+<!-- <a href='NavBar.html'>Home</a> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Management System</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+<style>
+body {
+	text-align: center;
+	background-color: background;
+}
+</style>
+</head>
+<body >
+<nav class="navbar navbar-default">  
+  <div class="container-fluid">  
+    <div class="navbar-header">  
+      <a class="navbar-brand" href="#" >Employee Information</a>  
+    </div>  
+    <ul class="nav navbar-nav">  
+      <li ><a href="NavBar.html">Home</a></li>  
+      <li><a href="home.html">Register</a></li>  
+      <li><a href="EmployeeList">Employee List</a></li>  
+    </ul>  
+  </div>  
+</nav>  
+
+<h2 class="bg-danger text-white text-center">Employee Registration</h2>
+<form action="register" method="post">
+<table class="table table-hover bg-danger text-white"  align="center">
+<tr>
+<td> ID</td>
+<td><input type="text" name="EmpID"></td>
+</tr>
+<tr>
+<td> Name</td>
+<td><input type="text" name="EmpName"></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="EmpAdd"></td>
+</tr>
+<tr>
+<tr>
+<td>Salary</td>
+<td><input type="text" name="EmpSal"></td>
+</tr>
+<td><input type="Submit" value="register"></td>
+<td><input type="reset" value="cancle"></td>
+</tr>
+</table>
+
+
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+</body>
+</html>
